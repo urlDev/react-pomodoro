@@ -1,0 +1,63 @@
+.container {
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.smallerContainer {
+    display: inline-block;
+    float: left;
+}
+
+#break-label {
+    color: #6D435A;
+    padding-bottom: 3rem;
+}
+
+#break-decrement,
+#break-increment {
+    background: #6D435A;
+    color: #FFFCF9;
+    border: none;
+}
+
+#session-label {
+    color: #6D435A;
+}
+
+#session-decrement,
+#session-increment {
+    background: #6D435A;
+    color: #FFFCF9;
+    border: none;
+}
+
+#timer-label {
+    color: #FF6978;
+    position: absolute;
+    top: 20%;
+    left: 85.5%;
+    width: 12vw;
+}
+
+#timer-label button {
+    background: #FF6978;
+    color: #FFFCF9;
+    border: none;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+.numbers {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#reset {
+    margin-left: 1rem;
+}
